@@ -45,3 +45,23 @@ RS-RNN and baseline models are evaluated under adversarial attack (PGD).
 <p align="center">
     <img src="figures/table.png" width= "800">
 </p>
+
+## Requirements
+- Python 3.7
+- Pytorch 1.4.1
+- Torchvision 0.4.2
+
+## Evaluate Pre-Trained Models
+
+``` 
+python adv_attack.py --checkpoint_path PATH_TO_CHECKPOINTS
+```
+
+## Train Models
+For training RS-RNN, we used four 2080Ti.  
+```
+python train.py --data_path PATH_TO_DATA --model MODEL_NAME
+```
+
+## ToDo
+- Upload code and pre-trained data
