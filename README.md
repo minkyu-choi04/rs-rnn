@@ -34,16 +34,22 @@ To investigate effects of each design choices on adversarial robustness, baselin
 
 RS-RNN and baseline models are evaluated under adversarial attack (PGD). 
 <p align="center">
-    <img src="figures/model.png" width= "800">
+    <img src="figures/recog.png" width= "800">
 </p>
 <p align="center">
-    <img src="figures/table.png" width= "800">
+    <img src="figures/adv1.png" width= "800">
 </p>
 <p align="center">
-    <img src="figures/table.png" width= "800">
+    <img src="figures/adv2.png" width= "800">
 </p>
 <p align="center">
-    <img src="figures/table.png" width= "800">
+    <img src="figures/adv3.png" width= "800">
+</p>
+<p align="center">
+    <img src="figures/attn1.png" width= "800">
+</p>
+<p align="center">
+    <img src="figures/attn2.png" width= "800">
 </p>
 
 ## Requirements
@@ -54,13 +60,13 @@ RS-RNN and baseline models are evaluated under adversarial attack (PGD).
 ## Evaluate Pre-Trained Models
 
 ``` 
-python adv_attack.py --checkpoint_path PATH_TO_CHECKPOINTS
+python adv_attack.py --checkpoint_path PATH_TO_CHECKPOINTS --data_path PATH_TO_DATASET
 ```
 
 ## Train Models
 For training RS-RNN, we used four 2080Ti.  
 ```
-python train.py --data_path PATH_TO_DATA --model MODEL_NAME
+python train.py --data_path PATH_TO_DATASET --model MODEL_NAME
 ```
 
 ## ToDo
