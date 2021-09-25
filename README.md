@@ -36,7 +36,7 @@ To investigate the effects of each design choice on adversarial robustness, base
 RS-RNN and baseline models are evaluated under adversarial attack (PGD). 
 
 <p align="center">
-    <img src="figures/adv1.png" width= "800">
+    <img src="figures/adv1.png" width= "500">
 </p>
 Figure 4 presents recognition accuracy of the recurrent attention models under PGD attack from the 4th (Fig.3, left) and 16th (Fig.3, right) steps. Unlike other baseline models, RS-RNN corrects its recognition accuracy as more recurrent steps are deployed. 
 
