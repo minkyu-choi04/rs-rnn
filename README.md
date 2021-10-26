@@ -1,6 +1,6 @@
 # RS-RNN in Pytorch (Submitted to AAAI-22, Under review)
 This repository contains the official implementation and pre-trained models for the retinal sampling recurrent neural network (RS-RNN). 
-- ['Retinal Transformation and Recurrent Attention Improve Adversarial Robustness'](https://drive.google.com/file/d/1xhJRpOa28eSd8mABsmry0lbe5AiGEjrm/view?usp=sharing). 
+- ['Retinal Transformation and Recurrent Attention Improve Adversarial Robustness'](https://drive.google.com/file/d/15G26FZpMKsM-IX7StENcOTOuVsd4ICRO/view?usp=sharing). 
 
 Full code and data will be available soon. 
 
