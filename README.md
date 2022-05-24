@@ -22,6 +22,12 @@ As an example, assume that the model sequentially attends to a dog, a Frisbee, a
 The above figure (a) illustrates the model architecture. The model consists of convolutional encoders and gated recurrent units to process images. The attention module is further illustrated in (b), and its internal representations are shown in (c). 
 
 
+
+<p align="center">
+    <img src="figures/forward_big.gif" width= "800">
+</p>
+
+
 ### Contributions
 - Proposed a novel recurrent attention model that improves its adversarial robustness with longer recurrent steps. 
 - Tested various recurrent attention models against adversarial attacks, and checked their robustness during the recurrent process. 
