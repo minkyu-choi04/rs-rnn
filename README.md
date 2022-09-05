@@ -1,6 +1,6 @@
 # Human Eyes Inspired Recurrent Neural Networks are More Robust Against Adversarial Noises
 This repository contains the implementation and pre-trained models for the paper 
-- ['Human Eyes Inspired Recurrent Neural Networks are More Robust Against Adversarial Noises'](https://drive.google.com/file/d/15G26FZpMKsM-IX7StENcOTOuVsd4ICRO/view?usp=sharing). 
+- ['Human Eyes Inspired Recurrent Neural Networks are More Robust Against Adversarial Noises'](https://arxiv.org/abs/2206.07282). 
 
 Full code and data will be available soon. 
 
